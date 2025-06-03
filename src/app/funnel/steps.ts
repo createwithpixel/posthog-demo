@@ -1,30 +1,30 @@
 export const steps = [
     {
-        title: 'Get User Information',
-        description: 'You might want to start gathering some information about the user',
+        title: '1. Gather User Information',
+        description: 'You might want to start your onboarding process getting some additional user information',
         buttonText: 'Continue',
-        imageSrc: '/get-user-information.svg',
-        eventId: 'get-user-information'
+        imageSrc: '/get-user-information-hog.svg',
+        eventId: 'entered-user-information'
     },
     {
-        title: 'Video Tutorials',
-        description: 'Then, you might want to show them some video tutorials',
+        title: '2. Show Video Tutorials',
+        description: 'Then, you might want to show them some video tutorials to help them get started',
         buttonText: 'Continue',
-        imageSrc: '/video-tutorials-2.svg',
-        eventId: 'video-tutorials'
+        imageSrc: '/video-tutorials-hog.svg',
+        eventId: 'watched-video-tutorials'
     },
     {
-        title: 'First App Action',
-        description: 'Finally, you might want to invite them to take their first action',
+        title: '3. Invite to Take Action',
+        description: 'Finally, you might want to invite them to take their first action in the app',
         buttonText: 'Continue',
-        imageSrc: '/first-app-action.svg',
-        eventId: 'first-app-action'
+        imageSrc: '/first-app-action-hog.svg',
+        eventId: 'took-first-app-action'
     },
     {
-        title: 'You can track the funnel',
-        description: "You can record the clicks as events, and create a funnel",
+        title: 'You can track these actions',
+        description: "You can record any action as events, and create a funnel to see how many users are completing the funnel",
         buttonText: 'Continue',
-        imageSrc: '/first-app-action.svg',
-        eventId: 'first-app-action'
+        imageSrc: '/funnel-hog.svg',
+        eventId: 'last-step'
     },
 ]

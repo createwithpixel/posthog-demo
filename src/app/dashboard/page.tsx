@@ -28,9 +28,9 @@ export default function Dashboard() {
 
   return (
     <div className=" py-5 px-5 flex flex-col items-center justify-center h-screen pb-20">
-        <Image src={showButton ? "/explaining-hog.svg": "stopsign.svg"} alt="PostHog" width={300} height={100} />
-        <h1 className="text-xl font-bold mb-2 mt-5 text-center">{ showButton ? 'Feature Flags in Action' : 'No action here just yet'}</h1>
-        <p className=" text-gray-500 mb-10">{ showButton ? "Update your UI without deploying" : 'Pay attention! I am watching you'}</p>
+        <Image src={showButton ? "/explaining-hog.svg": "identify-hog.svg"} alt="PostHog" width={300} height={100} />
+        <h1 className="text-xl font-bold mb-2 mt-5 text-center">{ showButton ? 'Feature Flags in Action' : 'You have been identified in PostHog'}</h1>
+        <p className=" text-gray-500 mb-10">{ showButton ? "Update your UI without deploying" : 'Look at the screen and see the data'}</p>
         <div className="flex flex-col items-center w-full">
         <div className="h-12 flex flex-col w-full">
             {
